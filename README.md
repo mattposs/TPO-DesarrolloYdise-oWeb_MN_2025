@@ -86,7 +86,7 @@ elementos esenciales tanto en la fotografía como en el diseño visual del sitio
 ## 🚀 Publicación
 
 - **Repositorio en GitHub:** [https://github.com/MatiasPosse/inti-fotografia](https://github.com/mattposs/TPO-DesarrolloYdisenoWeb_MN_2025)
-- **Sitio en línea (GitHub Pages):** [https://matiasposse.github.io/inti-fotografia/](https://matiasposse.github.io/inti-fotografia/)  
+- **Sitio en línea (GitHub Pages):** [https://matiasposse.github.io/inti-fotografia/](https://matiasposse.github.io/inti-fotografia/)](https://mattposs.github.io/TPO-DesarrolloYdisenoWeb_MN_2025/)  
 - **Prototipo Figma:** [https://www.figma.com/design/Zb1vG25WncxJlMi5NacmjC/Inti-Fotografia](https://www.figma.com/design/Zb1vG25WncxJlMi5NacmjC/Inti-Fotografia?node-id=0-1&t=adR4r8GgzaXgB9UE-1)
 
 ---
