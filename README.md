@@ -39,9 +39,6 @@ elementos esenciales tanto en la fotografía como en el diseño visual del sitio
 └── /img               → Carpeta de recursos visuales (logo, productos, cursos, etc.)
 ```
 
-
-Cada página mantiene coherencia estética, jerarquía visual clara y diseño responsivo.
-
 ---
 
 ## 🎨 Diseño e identidad visual
@@ -82,7 +79,7 @@ Cada página mantiene coherencia estética, jerarquía visual clara y diseño re
 
 ## 🗺️ Mapa del sitio
 
-![Mapa del sitio – Inti Fotografía](./Mapa_del_Sitio_Inti_Fotografia_v2.png)
+![Mapa del sitio – Inti Fotografía](./MAPA%20DEL%20SITIO.png)
 
 ---
 
