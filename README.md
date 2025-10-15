@@ -1,92 +1,118 @@
 # 📸 Inti Fotografía – Sitio Web
 
-**Inti Fotografía** es un sitio web desarrollado como **Trabajo Práctico Obligatorio de la materia Diseño y Desarrollo Web (UADE 2025)**.  
-El proyecto representa un **local comercial dedicado a la fotografía profesional**, combinando tienda online, cursos, servicios y un carrito funcional hecho con HTML, CSS y JavaScript.
+**Inti Fotografía** es un sitio web desarrollado como **Trabajo Práctico Obligatorio** de la materia  
+**Diseño y Desarrollo Web – UADE 2025 (Comisión Martes Noche)**.
+
+El proyecto representa un **local comercial dedicado a la fotografía profesional**, combinando:
+- 🛍️ Tienda online de cámaras, lentes y accesorios  
+- 🧑‍🏫 Cursos y capacitaciones  
+- 🎞️ Servicios fotográficos  
+- 🛒 Carrito funcional con JavaScript y almacenamiento local
 
 ---
 
 ## 🌞 Acerca del proyecto
 
-Inti Fotografía nació como una propuesta moderna e integral para todos los amantes de la fotografía:  
-ofrece equipos, accesorios, servicios de sesiones, cursos y productos personalizados.
+**Inti Fotografía** nació como una propuesta moderna e integral para todos los amantes de la fotografía.  
+Ofrece equipos, accesorios, servicios de sesiones, cursos y productos personalizados.
 
-El nombre *“Inti”* proviene del dios del sol en la cultura andina, símbolo de luz e inspiración,  
-valores que también representan la esencia de la fotografía.
+El nombre **“Inti”**, inspirado en el **dios del sol andino**, simboliza la **luz y la inspiración**,  
+elementos esenciales tanto en la fotografía como en el diseño visual del sitio.
 
 ---
 
 ## 🧱 Estructura del sitio
 
-# TPO-Desarrollo Y diseño Web_MN_2025
+📦 inti-fotografia
+├── index.html → Página principal (Inicio)
+├── nosotros.html → Historia y filosofía de la marca
+├── camaras.html → Tienda de cámaras y lentes
+├── accesorios.html → Accesorios fotográficos
+├── cursos.html → Cursos y capacitaciones
+├── servicios.html → Servicios fotográficos profesionales
+├── bebes.html → Fotografía infantil
+├── contacto.html → Formulario + mapa de ubicación
+├── carrito.html → Carrito funcional con localStorage
+├── style.css → Estilos principales del sitio
+├── cart.js → Lógica del carrito de compras
+└── /img → Carpeta de recursos visuales (logo, productos, cursos, etc.)
 
-Inicio (index.html)
-├── Nosotros (nosotros.html)
-├── Cámaras y Lentes (camaras.html)
-├── Accesorios (accesorios.html)
-├── Cursos (cursos.html)
-├── Servicios (servicios.html)
-├── Bebés (bebes.html)
-├── Contacto (contacto.html)
-└── Carrito (carrito.html)
 
-
-Cada página presenta contenido visual, con tarjetas (cards) que muestran productos, cursos o servicios,  
-manteniendo coherencia estética en toda la navegación.
+Cada página mantiene coherencia estética, jerarquía visual clara y diseño responsivo.
 
 ---
 
 ## 🎨 Diseño e identidad visual
 
-- **Colores principales:**  
-  - 🔴 Rojo `#D32F2F`  
-  - 🟠 Naranja `#FB8C00`  
-  - 🔵 Azul `#1976D2`  
-  - 🟣 Violeta `#8E24AA`  
-  - 🟢 Verde `#7CB342`  
-  - 🟦 Celeste `#00ACC1`
-- **Tipografía:** Roboto (Google Fonts)
-- **Estilo:** moderno, minimalista y responsivo
-- **Navbar:** efecto *Glass Blur* translúcido con botones redondeados
-- **Hero principal:** imagen de fondo con degradado y llamado a la acción
-- **Cards:** sombras suaves, bordes redondeados, efecto hover dinámico
-- **Footer:** fondo oscuro y tipografía clara
-- **Logo oficial:** diseño original con reflejo y luz interna
+### Paleta cromática
+| Color | Código | Significado |
+|:--|:--|:--|
+| 🔴 Rojo | `#D32F2F` | Energía, acción y pasión por la fotografía |
+| 🟠 Naranja | `#FB8C00` | Creatividad y dinamismo |
+| 🔵 Azul | `#1976D2` | Confianza y profesionalismo |
+| 🟣 Violeta | `#8E24AA` | Inspiración y elegancia |
+| 🟢 Verde | `#7CB342` | Renovación y naturaleza |
+| 🟦 Celeste | `#00ACC1` | Tecnología y frescura |
+
+### Tipografía
+**Roboto (Google Fonts)** – limpia, moderna y versátil.
+
+### Estilo visual
+- Navbar centrada con **efecto Glass Blur** translúcido y botones redondeados.  
+- Hero con degradado y **llamado a la acción principal (CTA)**.  
+- Cards con **sombras suaves y animaciones hover**.  
+- Footer sobrio, oscuro y con contraste perfecto para legibilidad.  
+- **Logo oficial:** *"Inti Fotografía"* con reflejo sutil y luz interna.
 
 ---
 
 ## 🧠 Tecnologías utilizadas
 
-- **HTML5** → estructura semántica  
-- **CSS3** → estilos con Flexbox, Grid, variables y diseño responsive  
-- **JavaScript (cart.js)** → lógica del carrito, almacenamiento local (localStorage)  
-- **GitHub Pages** → publicación del sitio  
-- **Figma** → diseño base y prototipado visual
+| Tecnología | Uso |
+|:--|:--|
+| **HTML5** | Estructura semántica de las páginas |
+| **CSS3** | Diseño, Flexbox, Grid, variables y efecto Glass |
+| **JavaScript (cart.js)** | Carrito funcional, lógica de compra y almacenamiento local |
+| **GitHub Pages** | Publicación online del sitio |
+| **Figma** | Prototipo visual del diseño (layout y paleta) |
 
 ---
 
-## 🗂️ Estructura de carpetas
+## 🗺️ Mapa del sitio
 
-📦 inti-fotografia
-├── index.html
-├── nosotros.html
-├── camaras.html
-├── accesorios.html
-├── cursos.html
-├── servicios.html
-├── bebes.html
-├── contacto.html
-├── carrito.html
-├── style.css
-├── cart.js
-└── /img
-├── logo tipo.png
-├── cursofotografiadeportiva.jpg
-├── camaramirrorless.png
-├── ... (resto de imágenes)
+![Mapa del sitio – Inti Fotografía](./Mapa_del_Sitio_Inti_Fotografia_v2.png)
 
+---
 
-   
-🧠 Prototipo en Figma: https://www.figma.com/design/Zb1vG25WncxJlMi5NacmjC/Inti-Fotografia?node-id=0-1&t=adR4r8GgzaXgB9UE-1
- 
- 
-© 2025 – Inti Fotografía | Creado por Matías Posse Presa
+## 🚀 Publicación
+
+- **Repositorio en GitHub:** [https://github.com/MatiasPosse/inti-fotografia](https://github.com/MatiasPosse/inti-fotografia)  
+- **Sitio en línea (GitHub Pages):** [https://matiasposse.github.io/inti-fotografia/](https://matiasposse.github.io/inti-fotografia/)  
+- **Prototipo Figma:** [https://www.figma.com/design/Zb1vG25WncxJlMi5NacmjC/Inti-Fotografia](https://www.figma.com/design/Zb1vG25WncxJlMi5NacmjC/Inti-Fotografia?node-id=0-1&t=adR4r8GgzaXgB9UE-1)
+
+---
+
+## 📁 Documentación complementaria
+
+- 🧾 [Mapa del sitio visual (PNG)](./Mapa_del_Sitio_Inti_Fotografia.png)  
+
+---
+
+## 🧑‍🎓 Autor
+
+**Matías Ezequiel Posse Presa**  
+💻 UADE – Diseño y Desarrollo Web  
+🕓 Comisión Martes Noche 2025
+
+---
+
+## 💬 Comentarios finales
+
+El proyecto busca reflejar una **experiencia visual moderna, intuitiva y adaptable**,  
+respetando las buenas prácticas de diseño web y los principios de usabilidad.  
+
+> “Cada fotografía captura un instante, pero cada diseño refleja una idea.”
+
+---
+
+© 2025 – *Inti Fotografía* | Desarrollado por **Matías Posse Presa**
