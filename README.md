@@ -23,19 +23,21 @@ elementos esenciales tanto en la fotografía como en el diseño visual del sitio
 
 ## 🧱 Estructura del sitio
 
+```plaintext
 📦 inti-fotografia
-├── index.html → Página principal (Inicio)
-├── nosotros.html → Historia y filosofía de la marca
-├── camaras.html → Tienda de cámaras y lentes
-├── accesorios.html → Accesorios fotográficos
-├── cursos.html → Cursos y capacitaciones
-├── servicios.html → Servicios fotográficos profesionales
-├── bebes.html → Fotografía infantil
-├── contacto.html → Formulario + mapa de ubicación
-├── carrito.html → Carrito funcional con localStorage
-├── style.css → Estilos principales del sitio
-├── cart.js → Lógica del carrito de compras
-└── /img → Carpeta de recursos visuales (logo, productos, cursos, etc.)
+├── index.html         → Página principal (Inicio)
+├── nosotros.html      → Historia y filosofía de la marca
+├── camaras.html       → Tienda de cámaras y lentes
+├── accesorios.html    → Accesorios fotográficos
+├── cursos.html        → Cursos y capacitaciones
+├── servicios.html     → Servicios fotográficos profesionales
+├── bebes.html         → Fotografía infantil
+├── contacto.html      → Formulario + mapa de ubicación
+├── carrito.html       → Carrito funcional con localStorage
+├── style.css          → Estilos principales del sitio
+├── cart.js            → Lógica del carrito de compras
+└── /img               → Carpeta de recursos visuales (logo, productos, cursos, etc.)
+```
 
 
 Cada página mantiene coherencia estética, jerarquía visual clara y diseño responsivo.
