@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inti Fotografía – Cursos</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="header">
+  <div class="logo">
+    <img src="./img/logo tipo.png" alt="Logo Inti Fotografía" class="logo-img">
+    <span>Inti Fotografía</span>
+  </div>
+
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="camaras.html">Cámaras y Lentes</a>
+      <a href="accesorios.html">Accesorios</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="promociones.html" class="active">Promociones</a>
+    </nav>
+</header>
+
+  <section class="hero" style="background:linear-gradient(90deg,#8E24AA,#D32F2F);">
+    <h1>Cursos de Fotografía</h1>
+    <p>Aprendé desde cero o perfeccionate con nosotros</p>
+  </section>
+
+  <main class="productos">
+    <div class="grid">
+
+      <article class="card">
+        <img src="./img/curso-fotografia-movil.jpg" alt="Curso de fotografía con celular" class="img-contain ratio-4-3">
+        <h3>Fotografía con celular</h3>
+        <p class="precio">$150</p>
+        <button class="btn add-to-cart"
+          data-id="curso-celular"
+          data-name="Curso: Fotografía con celular"
+          data-price="150"
+          data-img="./img/curso-fotografia-movil.jpg">
+          Inscribirme
+        </button>
+      </article>
+
+
+      <article class="card">
+        <img src="./img/cursofotografíadigital.jpg" alt="Curso de fotografía digital" class="img-contain ratio-4-3">
+        <h3>Fotografía digital</h3>
+        <p class="precio">$300</p>
+        <button class="btn add-to-cart"
+          data-id="curso-digital"
+          data-name="Curso: Fotografía digital"
+          data-price="300"
+          data-img="./img/cursofotografíadigital.jpg">
+          Inscribirme
+        </button>
+      </article>
+
+
+      <article class="card">
+        <img src="./img/cursofotografíaanalogica.jpg" alt="Curso de fotografía analógica" class="img-contain ratio-4-3">
+        <h3>Fotografía analógica</h3>
+        <p class="precio">$350</p>
+        <button class="btn add-to-cart"
+          data-id="curso-analogica"
+          data-name="Curso: Fotografía analógica"
+          data-price="350"
+          data-img="./img/cursofotografíaanalogica.jpg">
+          Inscribirme
+        </button>
+      </article>
+
+
+      <article class="card">
+        <img src="./img/cursofotografíadeportiva.jpg" alt="Curso de fotografía social y deportiva" class="img-contain ratio-4-3">
+        <h3>Fotografía social y deportiva</h3>
+        <p class="precio">$400</p>
+        <button class="btn add-to-cart"
+          data-id="curso-social-deportiva"
+          data-name="Curso: Fotografía social y deportiva"
+          data-price="400"
+          data-img="./img/cursofotografíadeportiva.jpg">
+          Inscribirme
+        </button>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="footer"><p>&copy; 2025 Inti Fotografía.</p></footer>
+
+
+  <script src="cart.js"></script>
+</body>
+</html>
+
+

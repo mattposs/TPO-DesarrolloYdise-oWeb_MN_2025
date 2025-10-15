@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones – Inti Fotografía</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./img/logo tipo.png" alt="Logo Inti Fotografía" class="logo-img">
+      <span>Inti Fotografía</span>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="camaras.html">Cámaras y Lentes</a>
+      <a href="accesorios.html">Accesorios</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="promociones.html" class="active">Promociones</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background:linear-gradient(90deg,#8E24AA,#1976D2);">
+    <h1>Promociones exclusivas</h1>
+    <p>Seleccioná un producto y descubrí tus descuentos</p>
+  </section>
+
+  <main class="productos" style="max-width:900px;">
+    <h2>Calculá tu promoción</h2>
+
+    <form id="promoForm" class="form-contacto">
+      <label for="producto">Producto</label>
+      <select id="producto" required>
+        <option value="">-- Elegí un producto --</option>
+        <optgroup label="Cursos (2x1)">
+          <option value="celular">Fotografía con celular</option>
+          <option value="digital">Fotografía digital</option>
+          <option value="analogica">Fotografía analógica</option>
+          <option value="social">Fotografía social y deportiva</option>
+        </optgroup>
+        <optgroup label="Cámaras (10% efectivo)">
+          <option value="reflex">Cámara Reflex Pro</option>
+          <option value="mirrorless">Cámara Mirrorless</option>
+          <option value="lente50">Lente 50mm</option>
+          <option value="zoom70">Lente Zoom 70-200</option>
+        </optgroup>
+        <optgroup label="Accesorios (50% 2da unidad)">
+          <option value="sd128">Tarjeta SD 128GB</option>
+        </optgroup>
+      </select>
+
+      <label for="precio">Precio unitario ($)</label>
+      <input type="number" id="precio" readonly>
+
+      <label for="cantidad">Cantidad</label>
+      <input type="number" id="cantidad" required placeholder="Ej: 2">
+
+      <button type="submit">Calcular promoción</button>
+    </form>
+
+    <section id="resultado" style="margin-top:20px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 10px 24px rgba(0,0,0,.08); display:none;">
+      <h3>Resultado:</h3>
+      <p id="totalSinDescuento"></p>
+      <p id="descuentoAplicado"></p>
+      <p id="totalFinal"></p>
+      <p id="mensajeExtra" style="font-weight:700;"></p>
+      <button id="agregarCarrito" style="margin-top:10px; background:var(--azul); color:white; padding:10px 18px; border-radius:8px; border:none; cursor:pointer;">Agregar al carrito</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Inti Fotografía. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="promociones.js"></script>
+</body>
+</html>
