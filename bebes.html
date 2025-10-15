@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inti Fotografía – Bebés</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">📸 Inti Fotografía</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="bebes.html">Bebés</a>
+      <a href="camaras.html">Cámaras y Lentes</a>
+      <a href="accesorios.html">Accesorios</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="carrito.html" class="cart-link">🛒 <span id="cart-count" class="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background:linear-gradient(90deg,#00ACC1,#8E24AA);">
+    <h1>Fotografía para Bebés</h1>
+    <p>Capturá los momentos más tiernos</p>
+  </section>
+
+  <main class="productos">
+    <div class="grid">
+
+      <!-- Álbum Infantil -> Contacto -->
+      <article class="card">
+        <img src="./img/albun infantil.jpg" alt="Álbum Infantil" class="img-contain ratio-4-3">
+        <h3>Álbum Infantil</h3>
+        <p class="precio">$1200</p>
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Álbum Infantil">
+          <input type="hidden" name="precio" value="1200">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+      <!-- Sesión Newborn -> Contacto -->
+      <article class="card">
+        <img src="./img/Sesión Newborn.jpg" alt="Sesión Newborn" class="img-top ratio-4-3">
+        <h3>Sesión Newborn</h3>
+        <p class="precio">$4500</p>
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Sesión Newborn">
+          <input type="hidden" name="precio" value="4500">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+      <!-- Marcos personalizados -> Carrito -->
+      <article class="card">
+        <img src="./img/Marcos personalizados.jpg" alt="Marcos personalizados" class="img-contain ratio-4-3">
+        <h3>Marcos personalizados</h3>
+        <p class="precio">$800</p>
+        <button class="btn add-to-cart"
+          data-id="sku-marcos-personalizados"
+          data-name="Marcos personalizados"
+          data-price="800"
+          data-img="./img/Marcos personalizados.jpg">
+          Agregar al carrito
+        </button>
+      </article>
+
+      <!-- Kit de recuerdo -> Carrito -->
+      <article class="card">
+        <img src="./img/Kit de recuerdo.jpg" alt="Kit de recuerdo" class="img-contain ratio-4-3">
+        <h3>Kit de recuerdo</h3>
+        <p class="precio">$1500</p>
+        <button class="btn add-to-cart"
+          data-id="sku-kit-recuerdo"
+          data-name="Kit de recuerdo"
+          data-price="1500"
+          data-img="./img/Kit de recuerdo.jpg">
+          Agregar al carrito
+        </button>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="footer"><p>&copy; 2025 Inti Fotografía.</p></footer>
+  <script src="cart.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inti Fotografía – Cámaras y Lentes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">📸 Inti Fotografía</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="bebes.html">Bebés</a>
+      <a href="camaras.html">Cámaras y Lentes</a>
+      <a href="accesorios.html">Accesorios</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="carrito.html" class="cart-link">🛒 <span id="cart-count" class="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background:linear-gradient(90deg,#1976D2,#8E24AA);">
+    <h1>Cámaras y Lentes</h1>
+    <p>Equipos profesionales al mejor precio</p>
+  </section>
+
+  <main class="productos">
+    <div class="grid">
+
+
+      <article class="card">
+        <img src="./img/Cámara Reflex Pro.png" alt="Cámara Reflex Pro" class="img-contain ratio-4-3">
+        <h3>Cámara Reflex Pro</h3>
+        <p class="precio">$2500</p>
+        <button class="btn add-to-cart"
+          data-id="sku-reflex-pro"
+          data-name="Cámara Reflex Pro"
+          data-price="2500"
+          data-img="./img/Cámara Reflex Pro.png">
+          Agregar al carrito
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="./img/camaramirrorless.png" alt="Cámara Mirrorless" class="img-contain ratio-4-3">
+        <h3>Cámara Mirrorless</h3>
+        <p class="precio">$2200</p>
+        <button class="btn add-to-cart"
+          data-id="sku-mirrorless"
+          data-name="Cámara Mirrorless"
+          data-price="2200"
+          data-img="./img/camaramirrorless.png">
+          Agregar al carrito
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="./img/lente50mm.jpg" alt="Lente 50mm" class="img-contain ratio-4-3">
+        <h3>Lente 50mm</h3>
+        <p class="precio">$700</p>
+        <button class="btn add-to-cart"
+          data-id="sku-lente-50"
+          data-name="Lente 50mm"
+          data-price="700"
+          data-img="./img/lente50mm.jpg">
+          Agregar al carrito
+        </button>
+      </article>
+
+      <article class="card">
+        <img src="./img/lentezoom70-200.png" alt="Lente Zoom 70-200" class="img-contain ratio-4-3">
+        <h3>Lente Zoom 70-200</h3>
+        <p class="precio">$1500</p>
+        <button class="btn add-to-cart"
+          data-id="sku-zoom-70-200"
+          data-name="Lente Zoom 70-200"
+          data-price="1500"
+          data-img="./img/lentezoom70-200.png">
+          Agregar al carrito
+        </button>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="footer"><p>&copy; 2025 Inti Fotografía.</p></footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>

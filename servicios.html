@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inti Fotografía – Servicios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">📸 Inti Fotografía</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="bebes.html">Bebés</a>
+      <a href="camaras.html">Cámaras y Lentes</a>
+      <a href="accesorios.html">Accesorios</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="carrito.html" class="cart-link">🛒 <span id="cart-count" class="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background:linear-gradient(90deg,#FB8C00,#7CB342);">
+    <h1>Servicios Fotográficos</h1>
+    <p>Momentos únicos, capturados por profesionales</p>
+  </section>
+
+  <main class="productos">
+    <div class="grid">
+
+      <!-- Partido de fútbol -->
+      <article class="card">
+        <img src="./img/fotografiadeportivainti.jpg" alt="Cobertura fotográfica de partido de fútbol" class="img-top">
+        <h3>Cubrir partido de fútbol</h3>
+        <p class="precio">$2000</p>
+
+        <!-- Formulario que redirige a Contacto con los datos -->
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Cubrir partido de fútbol">
+          <input type="hidden" name="precio" value="2000">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+      <!-- Bodas -->
+      <article class="card">
+        <img src="./img/servicio_bodas.jpg" alt="Servicio de fotos para bodas" class="img-top">
+        <h3>Fotos para bodas</h3>
+        <p class="precio">$5000</p>
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Fotos para bodas">
+          <input type="hidden" name="precio" value="5000">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+      <!-- Egresados -->
+      <article class="card">
+        <img src="./img/servicio_egresados.jpg" alt="Cobertura de fiestas de egresados" class="img-top">
+        <h3>Fiestas de egresados</h3>
+        <p class="precio">$4000</p>
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Fiestas de egresados">
+          <input type="hidden" name="precio" value="4000">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+      <!-- Sesiones profesionales -->
+      <article class="card">
+        <img src="./img/sesion-de-fotos-profesionales.jpg" alt="Sesiones fotográficas profesionales en estudio o exterior" class="img-top">
+        <h3>Sesiones profesionales</h3>
+        <p class="precio">$3000</p>
+        <form action="contacto.html" method="get">
+          <input type="hidden" name="servicio" value="Sesiones profesionales">
+          <input type="hidden" name="precio" value="3000">
+          <button type="submit" class="btn">Solicitar</button>
+        </form>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="footer"><p>&copy; 2025 Inti Fotografía.</p></footer>
+  <script src="cart.js"></script>
+</body>
+</html>
