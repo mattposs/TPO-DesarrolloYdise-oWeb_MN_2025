@@ -96,7 +96,7 @@ Cada página mantiene coherencia estética, jerarquía visual clara y diseño re
 
 ## 📁 Documentación complementaria
 
-- 🧾 [Mapa del sitio visual (PNG)](./Mapa_del_Sitio_Inti_Fotografia.png)  
+- 🧾 [Mapa del sitio visual (PNG)](./MAPA DEL SITIO.png)  
 
 ---
 
