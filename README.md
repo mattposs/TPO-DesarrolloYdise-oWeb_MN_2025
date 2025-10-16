@@ -104,7 +104,7 @@ Nueva sección implementada en la **tercera etapa del TPO** (Actividad JavaScrip
 
 ## 🗺️ Mapa del sitio  
 
-![Mapa del sitio – Inti Fotografía](./MAPA%20DEL%20SITIO.png)
+![Mapa del sitio – Inti Fotografía](./MAPA%20DEL%20SITIOv2.png)
 
 ---
 
